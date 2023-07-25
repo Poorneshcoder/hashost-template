@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+     <!-- Boxicons CSS -->
+     <link
+     href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+     rel="stylesheet"
+   />
+    <link rel="stylesheet" href="./swiper-bundle.min.css">
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"> -->
     <script src="https://kit.fontawesome.com/b1b96968d2.js" crossorigin="anonymous"></script>
     <title>Hashost - Web Hosting Provider Bootstrap 4 Template</title>
@@ -244,7 +251,41 @@
     </div>
 
     <!-- section 09 - scroll section -->
-
+    <section class="container">
+        <div class="testimonial mySwiper">
+          <div class="testi-content swiper-wrapper">
+            <div class="slide swiper-slide">
+              <img src="./images/icon/test-01.png" alt="" class="image" />
+              <p>
+                Suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+              </p>
+  
+             <img src="./images/icon/v-border-1.png" class="border" alt="">
+  
+              <div class="details">
+                <span class="name">ANNA ROSE</span>
+                <span class="job">Web Developer</span>
+              </div>
+            </div>
+            <div class="slide swiper-slide">
+              <img src="./images/icon/test-01.png" alt="" class="image" />
+              <p>
+                Randomised words which don't look even slightly believable or Suffered alteration in some form, by injected humour.
+              </p>
+  
+             <img src="./images/icon/v-border-1.png" class="border" alt="">
+  
+              <div class="details">
+                <span class="name">Marnie Lotter</span>
+                <span class="job">Graphic Designer</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next nav-btn"></div>
+          <div class="swiper-button-prev nav-btn"></div>
+          <!-- <div class="swiper-pagination"></div> -->
+        </div>
+      </section>
 
 
     <!-- section 10 - offer section -->
@@ -380,6 +421,7 @@
 
 
      <!-- <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> -->
+     <script src="./swiper-bundle.min.js"></script>
      <script src="./app.js"></script>
 </body>
 </html>
