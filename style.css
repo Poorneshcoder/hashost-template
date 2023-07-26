@@ -824,7 +824,7 @@ nav .logo {
 
     /* top bar */
     .top-bar{
-      width: 140%;
+      width: 200%;
       height: 100px;
     }
     .top-bar-content{
@@ -883,6 +883,7 @@ nav .logo {
     }
     nav .openMenu {
       display: block;
+      margin-right: -100%;
     }
     nav .mainMenu li a:hover {
       background: none;
@@ -896,7 +897,7 @@ nav .logo {
     /* main-section */
     .main {
         width: 200%;
-        height: 110vh;
+        height: 160vh;
         align-items: center;
     }
     .main-content{
@@ -909,18 +910,48 @@ nav .logo {
         margin-top: -10px;
         
     }
+    .main-content-left p{
+      font-size: 24px;
+    }
 
     /* assignment section */
+    .assignments{
+      width: 200%;
+    }
     .assignment-boxs{
         margin-top: -50px;
         flex-direction: column;
         width: 400%;
     }
+    .assignment-box-1 h3{
+      font-size: 24px;
+    }
+    .assignment-box-1 p{
+      font-size: 24px;
+    }
     .assignment-box-1 .assign-border{
         display: none;
     }
 
-    /* service section */
+    /* search section */
+
+    .search{
+      width: 200%;
+    }
+    .search-content p{
+      font-size: 24px;
+    }
+
+        /* service section */
+
+
+    .services{
+      width: 200%;
+    }
+    .service-content p{
+      font-size: 24px;
+    }
+
     .service-boxs{
         width: 100%;
         margin-bottom: 50px;
@@ -932,13 +963,21 @@ nav .logo {
         margin-left: 60px;
     }
 
+    .service-box-1 p{
+      font-size: 24px;
+    }
+   
+
     /* project count section */
     .record{
+        width: 200%;
         margin-bottom: 500px;
     }
     .working-boxs {
+        width: 100%;
         margin-top: 200px;
         margin-bottom: 200px;
+        margin-left: 200px;
         height: 150vh;
         flex-direction: column;
         align-items: center;
@@ -951,8 +990,12 @@ nav .logo {
     }
 
     /* pricing */
+    .price{
+      width: 200%;
+    }
     .price-content p{
         padding: 20px;
+        font-size: 24px;
     }
     .price-boxs{
         /* width: 100%; */
@@ -963,17 +1006,23 @@ nav .logo {
         width: 95%;
         margin: 10px;
     }
+    .price-box-1 p{
+      font-size: 24px;
+    }
 
       /* scroll section */
     .container{
-      width: 80%;
+      width: 150%;
       margin-left: 80px;
     }
     .slide p {
-    font-size: 18px;
+    font-size: 24px;
   }
 
     /* offer section */
+    .offer{
+      width: 200%;
+    }
     .offer-bg{
         flex-direction: column;
     }
@@ -984,6 +1033,14 @@ nav .logo {
       }
 
       /* questions section */
+
+      .questions{
+        width: 200%;
+      }
+
+      .question-heading p{
+        font-size: 24px;
+      }
 
       .questions-flex{
         flex-direction: column-reverse;
@@ -1009,25 +1066,42 @@ nav .logo {
       }
      
       .footer-part-1{
-        width: 100%;
+        width: 80%;
         margin-bottom: 50px;
+      }
+      .footer-part-1 p{
+        font-size: 24px;
+        line-height: 28px;
       }
       .quick-links{
         width: 50%;
         margin-bottom: 50px;
       }
+      .quick-links li{
+        font-size: 24px;
+      }
       .latest-blog{
         width: 100%;
         margin-bottom: 50px;
       }
+      .latest-blog p{
+        font-size: 24px;
+      }
       .quick-contact{
         width: 50%;
+      }
+      .quick-contact p {
+        font-size: 24px;
       }
       .footer-bottom-flex{
         width: 80%;
         flex-direction: column;
       }
+      .footer-social-links ul li{
+        font-size: 20px;
+      }
       .footer-bottom-flex p{
         text-align: center;
+        font-size: 24px;
       }
 }
