@@ -976,7 +976,7 @@ nav .logo {
     }
     .working-boxs {
         width: 100%;
-        margin-top: 300px;
+        margin-top: 350px;
         margin-bottom: 200px;
         margin-left: 200px;
         height: 150vh;
@@ -994,6 +994,9 @@ nav .logo {
     .price{
       width: 200%;
       margin-top: 100px;
+    }
+    .price-content h1{
+      margin-top: 50px;
     }
     .price-content p{
         padding: 20px;
