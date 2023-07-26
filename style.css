@@ -1000,13 +1000,16 @@ nav .logo {
       }
 
       /* footer section */
+      .footer-top{
+        width: 200%;
+      }
       .footer-top-flex{
         flex-direction: column;
         
       }
      
       .footer-part-1{
-        width: 140%;
+        width: 100%;
         margin-bottom: 50px;
       }
       .quick-links{
