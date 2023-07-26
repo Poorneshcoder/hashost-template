@@ -824,7 +824,7 @@ nav .logo {
 
     /* top bar */
     .top-bar{
-      width: 120%;
+      width: 140%;
       height: 100px;
     }
     .top-bar-content{
@@ -895,8 +895,8 @@ nav .logo {
 
     /* main-section */
     .main {
-        width: 120%;
-        height: 145vh;
+        width: 140%;
+        height: 110vh;
         align-items: center;
     }
     .main-content{
@@ -1006,7 +1006,7 @@ nav .logo {
       }
      
       .footer-part-1{
-        width: 120%;
+        width: 140%;
         margin-bottom: 50px;
       }
       .quick-links{
