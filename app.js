@@ -36,18 +36,76 @@ for (i = 0; i < coll.length; i++) {
 
 // sticky nav bar
 
-window.onscroll = function() {myFunction()};
+// window.onscroll = function() {myFunction()};
 
-var navbar = document.getElementsByClassName("navbar");
-var sticky = navbar.offsetTop;
+// var navbar = document.getElementsByClassName("nav-bar");
+// var sticky = navbar.offsetTop;
 
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
+// function myFunction() {
+//   if (window.pageYOffset >= sticky) {
+//     navbar.classList.add("sticky")
+//   } else {
+//     navbar.classList.remove("sticky");
+//   }
+// }
+
+
+// humberger menu bar
+
+const mainMenu = document.querySelector('.mainMenu');
+const closeMenu = document.querySelector('.closeMenu');
+const openMenu = document.querySelector('.openMenu');
+const menu_items = document.querySelectorAll('nav .mainMenu li a');
+
+
+
+
+openMenu.addEventListener('click',show);
+closeMenu.addEventListener('click',close);
+
+// close menu when you click on a menu item 
+menu_items.forEach(item => {
+    item.addEventListener('click',function(){
+        close();
+    })
+})
+
+function show(){
+    mainMenu.style.display = 'flex';
+    mainMenu.style.top = '0';
 }
+function close(){
+    mainMenu.style.top = '-100%';
+}
+
+
+
+  // window.addEventListener("scroll", function(){
+  //   var header = this.document.querySelector("nav");
+  //   header.classList.toggle("sticky", window.scrollY > 0);
+  // })
+
+
+
+// const toggleButton = document.getElementsByClassName('fa-bars')[0]
+// const navbarLinks = document.getElementsByClassName('nav-links')[0]
+
+// toggleButton.addEventListener('click', () => {
+//   navbarLinks.classList.toggle('active')
+// })
+
+// window.addEventListener('scroll', function(){
+//     var header = document.querySelector('nav');
+//     header.classList.toggle('sticky', window.scrollY > 0);
+// })
+
+
+
+
+
+
+
+
 
 // swipper carousel code
 
@@ -65,4 +123,15 @@ var swiper = new Swiper(".mySwiper", {
   },
 });
 
+
+// menu function
+
+// function menuFunction() {
+//   var x = document.getElementById("navLinks");
+//   if (x.className === "nav-links") {
+//     x.className += " responsive";
+//   } else {
+//     x.className = "nav-links";
+//   }
+// }
 
