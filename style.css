@@ -824,7 +824,7 @@ nav .logo {
 
     /* top bar */
     .top-bar{
-      width: 100%;
+      width: 120%;
       height: 100px;
     }
     .top-bar-content{
@@ -860,6 +860,7 @@ nav .logo {
         display: inline-block;
     } */
     nav .mainMenu {
+
       height: 100vh;
       position: fixed;
       top: 0px;
@@ -894,8 +895,8 @@ nav .logo {
 
     /* main-section */
     .main {
-        width: 100%;
-        height: 155vh;
+        width: 120%;
+        height: 145vh;
         align-items: center;
     }
     .main-content{
@@ -1005,7 +1006,7 @@ nav .logo {
       }
      
       .footer-part-1{
-        width: 100%;
+        width: 120%;
         margin-bottom: 50px;
       }
       .quick-links{
