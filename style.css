@@ -897,7 +897,7 @@ nav .logo {
     /* main-section */
     .main {
         width: 200%;
-        height: 80vh;
+        height: 110vh;
         align-items: center;
     }
     .main-content{
@@ -947,6 +947,7 @@ nav .logo {
 
     .services{
       width: 200%;
+      margin-bottom: 80px;
     }
     .service-content p{
       font-size: 24px;
