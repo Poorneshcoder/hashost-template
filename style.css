@@ -897,7 +897,7 @@ nav .logo {
     /* main-section */
     .main {
         width: 200%;
-        height: 110vh;
+        height: 115vh;
         align-items: center;
     }
     .main-content{
@@ -976,7 +976,7 @@ nav .logo {
     }
     .working-boxs {
         width: 100%;
-        margin-top: 200px;
+        margin-top: 300px;
         margin-bottom: 200px;
         margin-left: 200px;
         height: 150vh;
@@ -993,6 +993,7 @@ nav .logo {
     /* pricing */
     .price{
       width: 200%;
+      margin-top: 100px;
     }
     .price-content p{
         padding: 20px;
