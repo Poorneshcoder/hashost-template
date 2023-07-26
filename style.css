@@ -975,9 +975,9 @@ nav .logo {
         margin-bottom: 500px;
     }
     .working-boxs {
-        width: 100%;
+        width: 150%;
         margin-top: 350px;
-        margin-bottom: 200px;
+        margin-bottom: 250px;
         margin-left: 200px;
         height: 150vh;
         flex-direction: column;
@@ -993,7 +993,7 @@ nav .logo {
     /* pricing */
     .price{
       width: 200%;
-      margin-top: 100px;
+      margin-top: 150px;
     }
     .price-content h1{
       margin-top: 50px;
