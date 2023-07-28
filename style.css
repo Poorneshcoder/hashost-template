@@ -977,14 +977,18 @@ nav .logo {
     .working-boxs {
         width: 150%;
         margin-top: 350px;
-        margin-bottom: 250px;
+        margin-bottom: 400px;
         margin-left: 200px;
         height: 150vh;
         flex-direction: column;
         align-items: center;
     }
+    .working-box-1{
+      width: 50%;
+    }
     .working-box-1 span.text{
         margin-top: 10px;
+        
     }
     .working-box-1 span.border{
       display: none;
