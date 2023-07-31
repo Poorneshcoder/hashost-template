@@ -1,6 +1,7 @@
 *{
     margin: 0;padding: 0;
     box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
 }
 html{
   scroll-behavior: smooth;
@@ -379,7 +380,6 @@ nav .logo {
 
 .service-box-1{
     width: 30%;
-    
     margin-bottom: 30px;
     padding: 50px 30px;
     text-align: center;
@@ -836,12 +836,15 @@ nav .logo {
     }
     .top-bar-content .icons i{
       text-align: center;
+
       padding: 1px;
+      padding-top: 10px;
       font-size: 24px;
     }
     .top-bar-content p{
       padding: 20px;
       font-size: 18px;
+      margin-left: -100px;
     }
 
     /* nav bar */
@@ -927,10 +930,11 @@ nav .logo {
       height: 100px;
     }
     .assignment-box-1 h3{
-      font-size: 24px;
+      font-size: 32px;
     }
     .assignment-box-1 p{
-      font-size: 24px;
+      font-size: 32px;
+      line-height: 40px;
     }
     .assignment-box-1 .assign-border{
         display: none;
@@ -952,8 +956,11 @@ nav .logo {
       width: 200%;
       margin-bottom: 80px;
     }
+    .service-content h1{
+      font-size: 40px;
+    }
     .service-content p{
-      font-size: 24px;
+      font-size: 32px;
     }
 
     .service-boxs{
@@ -963,15 +970,19 @@ nav .logo {
         /* align-items: center; */
     }
     .service-box-1{
-        width: 80%;
-        margin-left: 60px;
+        width: 90%;
+        margin-left: 40px;
     }
     .service-box-1 img{
       width: 40%;
     }
 
+    .service-box-1 h3{
+      font-size: 40px;
+    }
+
     .service-box-1 p{
-      font-size: 24px;
+      font-size: 32px;
     }
    
 
@@ -1001,13 +1012,14 @@ nav .logo {
     }
 
     /* pricing */
+
     .price{
       width: 200%;
-      margin-top: 150px;
+      margin-top: 100px;
     }
 
     .price-content h1{
-      padding-top: 400px;
+      padding-top: 200px;
     }
     .price-content p{
         padding: 20px;
@@ -1038,6 +1050,7 @@ nav .logo {
     /* offer section */
     .offer{
       width: 200%;
+      margin-left: 20px;
     }
     .offer-bg{
         flex-direction: column;
@@ -1087,7 +1100,7 @@ nav .logo {
       }
       .footer-part-1 p{
         font-size: 24px;
-        line-height: 28px;
+        line-height: 36px;
       }
       .quick-links{
         width: 50%;
@@ -1107,6 +1120,7 @@ nav .logo {
         width: 50%;
       }
       .quick-contact p {
+        padding-top: 20px;
         font-size: 24px;
       }
       .footer-bottom-flex{
