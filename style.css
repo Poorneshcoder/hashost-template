@@ -900,7 +900,7 @@ nav .logo {
     /* main-section */
     .main {
         width: 205%;
-        height: 115vh;
+        height: 110vh;
         align-items: center;
     }
     .main-content{
@@ -919,7 +919,7 @@ nav .logo {
 
     /* assignment section */
     .assignments{
-      width: 200%;
+      width: 205%;
     }
     .assignment-boxs{
         margin-top: -50px;
@@ -944,7 +944,7 @@ nav .logo {
     /* search section */
 
     .search{
-      width: 200%;
+      width: 205%;
     }
     .search-content p{
       font-size: 24px;
@@ -954,7 +954,7 @@ nav .logo {
 
 
     .services{
-      width: 200%;
+      width: 205%;
       margin-bottom: 80px;
     }
     .service-content h1{
@@ -990,7 +990,7 @@ nav .logo {
 
     /* project count section */
     .record{
-        width: 200%;
+        width: 205%;
         margin-bottom: 500px;
     }
     .working-boxs {
@@ -1020,7 +1020,7 @@ nav .logo {
     /* pricing */
 
     .price{
-      width: 200%;
+      width: 205%;
       margin-top: 100px;
     }
 
@@ -1076,7 +1076,7 @@ nav .logo {
       /* questions section */
 
       .questions{
-        width: 200%;
+        width: 205%;
       }
 
       .question-heading p{
@@ -1099,7 +1099,7 @@ nav .logo {
 
       /* footer section */
       .footer-top{
-        width: 200%;
+        width: 205%;
       }
       .footer-top-flex{
         flex-direction: column;
