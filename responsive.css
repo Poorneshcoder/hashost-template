@@ -232,19 +232,25 @@ and (max-width: 1200px) {
 }
 
 /* landscape media quearies for Nokia Lumia 920 emulator */
-/* 
-@media only screen
-and (min-width: 769px)
-and (max-width:964px) {
+
+/* @media only screen
+and (min-width: 768px)
+and (min-height: 460px) {
 
   .main{
-    height: 168vh;
+    height: auto;
   }
   .search-bg-image {
-    height: 55vh;
+    height: auto;
 }
+
+.working-boxs {
+  width: 83vw;
+  height: auto;
+}
+
 .price-content h1 {
-  padding-top: 230px;
+  padding-top: 320px;
 }
 .questions-list #btn1 i {
   padding-left: 140px;
