@@ -953,7 +953,7 @@ nav .logo {
     width: 100%;
   }
   .search-bg-image{
-    height: 30vh;
+    height: auto;
   }
   .search-content h1{
     font-size: 30px;
@@ -1304,7 +1304,7 @@ nav .logo {
     width: 100%;
   }
   .search-bg-image{
-    height: 26vh;
+    height: auto;
   }
   .search-content p{
     font-size: 18px;
@@ -1881,19 +1881,6 @@ nav .logo {
 
 
 
-/* @media screen and (min-width:322px)
-  and (max-width:361px)
-  and (orientation:landscape) {
-  
-    .main{
-      width: 500%;
-      height: 500vh;
-    }
-    nav{
-      display: none;
-    }
-} */
-
 @media only screen and (min-width:322px) and (max-width: 361px) {
   .top-bar{
     width: 100%;
@@ -2005,7 +1992,7 @@ nav .logo {
     width: 100%;
   }
   .search-bg-image{
-    height: 42vh;
+    height: auto;
   }
   .search-content h1{
     font-size: 18px;
@@ -2252,15 +2239,6 @@ nav .logo {
       font-size: 18px;
     }
 }
-
-/* @media only screen and (min-width:322px)
- and (max-width: 361px)
-  and (orientation: landscape) {
-
-  .main{
-    height: 1000vh;
-  }
-} */
 
 
 /* media quearies for Apple iPhone 5 emulator */
@@ -2744,7 +2722,7 @@ nav .logo {
         width: 100%;
       }
       .search-bg-image{
-        height: 128vh;
+        height: auto;
       }
       .search-content h1{
         font-size: 20px;

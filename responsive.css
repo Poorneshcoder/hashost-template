@@ -13,7 +13,7 @@ and (orientation:landscape){
     height: 253vh;
   }
   .search-bg-image {
-    height: 80vh;
+    height: auto;
   }
   .working-boxs {
     margin-top: 110px;
@@ -51,7 +51,7 @@ and (orientation:landscape){
     height: 218vh;
   }
   .search-bg-image {
-    height: 70vh;
+    height: auto;
 }
   .assignment-box-1 img {
     height: auto;
