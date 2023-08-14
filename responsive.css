@@ -1,0 +1,266 @@
+
+
+/* landscape media quearies for Apple iPhone 5 emulator */
+
+@media only screen 
+and (min-width:462px) 
+and (max-width:604px)  
+and (orientation:landscape){
+  /* .top-bar{
+    display: none;
+  } */
+  .main{
+    height: 253vh;
+  }
+  .search-bg-image {
+    height: 80vh;
+  }
+  .working-boxs {
+    margin-top: 110px;
+    margin-bottom: 400px;
+    margin-left: 5px;
+    height: 135vh;
+    flex-direction: column;
+    align-items: center;
+}
+.quick-links li {
+  font-size: 18px;
+}
+.latest-blog p {
+  font-size: 20px;
+}
+.footer-social-links ul li {
+  font-size: 13px;
+  text-align: center;
+}
+ }
+
+
+
+
+/* landscape media queary for mobile for htc one emulator */
+
+@media only screen
+ and (min-width: 604px) 
+ and (max-width: 700px) 
+{
+  /* .top-bar{
+    display: none;
+  } */
+  .main{
+    height: 218vh;
+  }
+  .search-bg-image {
+    height: 70vh;
+}
+  .assignment-box-1 img {
+    height: auto;
+  }
+  .service-box-1 img {
+    width: auto;
+  }
+  .working-boxs {
+    width: 80%;
+    margin-top: 150px;
+    margin-left: 5px;
+    height: 148vh;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .price {
+    width: 100%;
+    margin-top: 210px;
+  }
+  .price-content p {
+    font-size: 18px;
+  }
+  .questions-list #btn1 i{
+    margin-left: 130px;
+  }
+  .questions-list #btn2 i{
+    padding-left: 140px;
+  }
+  .questions-list #btn3 i{
+    margin-left: 90px;
+  }
+  .questions-list #btn4 i{
+    margin-left: 460px;
+  }
+  .questions-list #btn5 i{
+    margin-left: 400px;
+  }
+  .footer-social-links ul li {
+    font-size: 15px;
+    text-align: center;
+}
+}
+
+
+
+
+
+
+
+/* landscape media quearies for google nexus 7 emulator */
+
+@media only screen 
+and (min-width: 965px)
+and (max-width: 1022px)
+ {
+
+  nav .mainMenu li a {
+    font-size: 12px;
+  }
+
+  .nav-icons i{
+    padding-left: 8px;
+  }
+  .main{
+    height: 102vh;
+  }
+  .main-content h1{
+    font-size: 36px;
+  }
+  .main-content p{
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .assignment-box-1 .assign-border{
+    margin-top: -80%;
+}
+.working-box-1 span.text {
+  margin-top: 20px;
+}
+
+.record{
+  margin-bottom: 50px;
+}
+
+  .working-boxs {
+    width: 83vw;
+  }
+  .offer-img img {
+    margin-top: 60px;
+  }
+  .offer-content p {
+    line-height: 20px;
+    font-size: 16px;
+  }
+
+  .questions-list button{
+    text-align: left;
+  }
+  .questions-list #btn1 i {
+    padding-left: 100px;
+  }
+  .questions-list #btn2 i {
+    padding-left: 28px;
+  }
+  .questions-list #btn3 i {
+    padding-left: 104px;
+  }
+  .questions-list #btn4 i {
+    padding-left: 1px;
+  }
+  .questions-list #btn5 i {
+    padding-left: 100px;
+  }
+
+  .footer-bottom-flex {
+    flex-direction: column;
+  }
+  .footer-bottom-flex p{
+    text-align: center;
+  }
+
+}
+
+
+
+ /* landscape for Apple iPad mini emulator */
+
+@media only screen
+and (min-width: 1023px)
+and (max-width: 1200px) {
+  /* .top-bar{
+    display: none;
+  } */
+
+  nav .mainMenu li a {
+    font-size: 12px;
+  }
+  .main{
+    height: 88vh;
+  }
+  .assignment-boxs{
+    margin-top: -50px;
+  }
+  .assignment-box-1 .assign-border{
+    margin-top: -80%;
+}
+.offer-img img {
+  margin-top: 74px;
+}
+
+.questions-list button{
+  text-align: left;
+}
+.questions-list #btn1 i {
+  padding-left: 140px;
+}
+.questions-list #btn2 i {
+  padding-left: 68px;
+}
+.questions-list #btn3 i {
+  padding-left: 184px;
+}
+.questions-list #btn4 i {
+  padding-left: 41px;
+}
+.questions-list #btn5 i {
+  padding-left: 140px;
+}
+.footer-bottom-flex {
+  flex-direction: column;
+}
+.footer-bottom-flex p{
+  text-align: center;
+}
+
+}
+
+/* landscape media quearies for Nokia Lumia 920 emulator */
+/* 
+@media only screen
+and (min-width: 769px)
+and (max-width:964px) {
+
+  .main{
+    height: 168vh;
+  }
+  .search-bg-image {
+    height: 55vh;
+}
+.price-content h1 {
+  padding-top: 230px;
+}
+.questions-list #btn1 i {
+  padding-left: 140px;
+}
+.questions-list #btn2 i {
+  padding-left: 223px;
+}
+.questions-list #btn3 i {
+  margin-left: 179px;
+}
+.questions-list #btn4 i {
+  padding-left: 84px;
+}
+.questions-list #btn5 i {
+  padding-left: 145px;
+}
+} */
+
+
