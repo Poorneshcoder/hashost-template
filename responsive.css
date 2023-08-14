@@ -127,6 +127,10 @@ and (max-width: 1022px)
     line-height: 24px;
   }
 
+  .assignment-boxs{
+    margin-top: -50px;
+  }
+
   .assignment-box-1 .assign-border{
     margin-top: -80%;
 }
@@ -269,4 +273,72 @@ and (min-height: 460px) {
 }
 } */
 
+@media only screen 
+and (min-width: 769px) and (max-width: 964px) {
+  .nav-bar{
+    width: auto;
+  }
+  nav .mainMenu li a{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    transition: 0.2s ease;
+    color: #333;
+}
+.main{
+  width: auto;
+  height: auto;
+}
+.assignment-boxs{
+  margin-top: -50px;
+}
+.assignment-box-1 .assign-border{
+  margin-top: -80%;
+}
+.working-boxs{
+  width: auto;
+}
+.working-box-1 span.text {
+  width: auto;
+  margin-top: 20px;
+  font-size: 0.7em;
+}
 
+.price{
+  margin-top: 150px;
+}
+.offer-img img{
+  margin-right: 100px;
+  margin-top: 120px;
+}
+
+.questions-list{
+  text-align: left;
+}
+.questions-list #btn1 i{
+  margin-left: 220px;
+}
+.questions-list #btn2 i{
+  margin-left: 275px;
+}
+.questions-list #btn3 i{
+  margin-left: 230px;
+}
+.questions-list #btn4 i{
+  margin-left: 290px;
+}
+.questions-list #btn5 i{
+  margin-left: 235px;
+}
+.question-right img{
+  margin: auto;
+}
+.footer-bottom-flex{
+  flex-direction: column;
+}
+.footer-bottom-flex p{
+  text-align: center;
+}
+}

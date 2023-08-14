@@ -1410,7 +1410,7 @@ nav .logo {
   .container{
     width: 80%;
     margin-top: 50px;
-    margin-left: 40px;
+    margin-left: 65px;
   }
   .slide p {
   font-size: 20px;
@@ -1683,7 +1683,7 @@ nav .logo {
   .service-box-1{
       width: 90%;
       height: auto;
-      margin-left: 20px;
+      margin-left: 40px;
   }
   .service-box-1 img{
     width: auto;
@@ -2380,7 +2380,7 @@ nav .logo {
         width: 100%;
       }
       .search-bg-image{
-        height: 46vh;
+        height: auto;
       }
       .search-content h1{
         font-size: 18px;
@@ -2438,7 +2438,7 @@ nav .logo {
           width: 80%;
           margin-top: 50px;
           margin-left: 5px;
-          height: 90vh;
+          height: auto;
           flex-direction: column;
           align-items: center;
       }
@@ -2461,7 +2461,7 @@ nav .logo {
   
       .price{
         width: 100%;
-        margin-top: 100px;
+        margin-top: 180px;
       }
   
       .price-content h1{
@@ -2488,18 +2488,20 @@ nav .logo {
   
 
       .container{
-        width: 80%;
+        width: auto;
+        height: auto;
         margin-top: 50px;
-        margin-left: 40px;
+        margin-left: 30px;
       }
       .slide p {
       font-size: 20px;
     }
       .offer{
-        width: 93%;
+        width: auto;
       }
       .offer-bg{
-          width: 100%;
+          width: auto;
+          margin: 20px;
           flex-direction: column;
       }
 
@@ -2518,9 +2520,7 @@ nav .logo {
         font-size: 16px;
       }
       .offer-img img{
-          margin-left: 29px;
-          margin-top: 40px;
-          margin-bottom: 20px;
+          margin: auto auto auto 45px;
         }
   
         .questions{
@@ -2547,19 +2547,19 @@ nav .logo {
           font-size: 15px;
         }
         .questions-list #btn1 i{
-          padding-left: 55px;
+          padding-left: 45px;
         }
         .questions-list #btn2 i{
-          margin-left: 250px;
+          margin-left: 246px;
         }
         .questions-list #btn3 i{
           padding-left: 90px;
         }
         .questions-list #btn4 i{
-          margin-left: 255px;
+          margin-left: 250px;
         }
         .questions-list #btn5 i{
-          padding-left: 50px;
+          padding-left: 46px;
         }
         .content {
           width: 100%;
