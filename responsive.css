@@ -10,8 +10,13 @@ and (orientation:landscape){
     display: none;
   } */
   .main{
-    height: 253vh;
+    height: auto;
   }
+  .main-right-img img {
+    width: 90%;
+    height: auto;
+    align-items: center;
+}
   .search-bg-image {
     height: auto;
   }
@@ -48,7 +53,7 @@ and (orientation:landscape){
     display: none;
   } */
   .main{
-    height: 218vh;
+    height: auto;
   }
   .search-bg-image {
     height: auto;
@@ -117,7 +122,7 @@ and (max-width: 1022px)
     padding-left: 8px;
   }
   .main{
-    height: 102vh;
+    height: auto;
   }
   .main-content h1{
     font-size: 36px;
@@ -126,6 +131,14 @@ and (max-width: 1022px)
     font-size: 16px;
     line-height: 24px;
   }
+  .main img{
+    width: 100%;
+    margin-bottom: -5px;
+}
+.main-right-img img{
+  height: auto;
+  margin-left: 50px;
+}
 
   .assignment-boxs{
     margin-top: -50px;
@@ -196,8 +209,16 @@ and (max-width: 1200px) {
     font-size: 12px;
   }
   .main{
-    height: 88vh;
+    height: auto;
   }
+  .main img{
+    width: 100%;
+    margin-bottom: -5px;
+}
+.main-right-img img {
+  height: auto;
+  margin-left: 50px;
+}
   .assignment-boxs{
     margin-top: -50px;
   }
@@ -291,12 +312,19 @@ and (min-width: 769px) and (max-width: 964px) {
   width: auto;
   height: auto;
 }
+.main img{
+  width: 100%;
+  margin-bottom: -5px;
+}
 .assignment-boxs{
   margin-top: -50px;
 }
 .assignment-box-1 .assign-border{
   margin-top: -80%;
 }
+/* .record{
+  width: auto;
+} */
 .working-boxs{
   width: auto;
 }
@@ -341,4 +369,33 @@ and (min-width: 769px) and (max-width: 964px) {
 .footer-bottom-flex p{
   text-align: center;
 }
+}
+
+@media only screen 
+and (min-width:1201px)
+and (max-width:1400px) {
+  .main{
+    height: auto;
+  }
+  .main img{
+    margin-bottom: -5px;
+  }
+  .questions-list button{
+    text-align: left;
+  }
+  .questions-list #btn1 i{
+    padding-left: 250px;
+  }
+  .questions-list #btn2 i{
+    padding-left: 180px;
+  }
+  .questions-list #btn3 i{
+    padding-left: 290px;
+  }
+  .questions-list #btn4 i{
+    padding-left: 147px;
+  }
+  .questions-list #btn5 i{
+    padding-left: 247px;
+  }
 }

@@ -392,6 +392,7 @@ nav .logo {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     z-index: 2;
     background-position: center bottom;
+    background-size: cover;
 
 }
 .service-box-1 img, .service-box-1 h3{
@@ -900,7 +901,7 @@ nav .logo {
 
   .main {
       width: 100%;
-      height: 114vh;
+      height: auto;
       align-items: center;
   }
   .main-content{
@@ -913,7 +914,7 @@ nav .logo {
   .main img{
       width: 100%;
       margin: auto;
-      margin-top: -10px;
+      margin-bottom: -5px;
       
   }
 
@@ -1251,7 +1252,7 @@ nav .logo {
 
   .main {
       width: 100%;
-      height: 81vh;
+      height: auto;
       align-items: center;
   }
   .main-content{
@@ -1259,12 +1260,12 @@ nav .logo {
       
   }
   .main-right-img img{
-    height: 300px;
+    height: auto;
+    margin-left: 0px;
   }
   .main img{
       width: 100%;
-      margin: auto;
-      margin-top: -10px;
+      margin-bottom: -5px;
       
   }
 
@@ -1333,7 +1334,7 @@ nav .logo {
   }
   .service-box-1{
       width: 90%;
-      margin-left: 20px;
+      margin-left: 20px;    
   }
   .service-box-1 img{
     width: auto;
@@ -1611,7 +1612,7 @@ nav .logo {
   .main img{
       width: 100%;
       margin: auto;
-      margin-top: -10px;
+      margin-bottom: -5px;
       
   }
 
@@ -1879,7 +1880,7 @@ nav .logo {
 } 
 
 
-
+/* media quearies for HTC One emulator */
 
 @media only screen and (min-width:322px) and (max-width: 361px) {
   .top-bar{
@@ -1943,7 +1944,7 @@ nav .logo {
 
   .main {
       width: 100%;
-      height: 147vh;
+      height: auto;
       align-items: center;
   }
   .main-content{
@@ -1951,11 +1952,12 @@ nav .logo {
       
   }
   .main-right-img img{
-    height: 300px;
+    height: auto;
+    margin-left: 25px;
   }
   .main img{
       width: 100%;
-      margin: auto;    
+      margin-bottom: -5px;    
   }
 
   .main-content-left h1{
@@ -2305,7 +2307,7 @@ nav .logo {
 
       .main {
           width: 100%;
-          height: 176vh;
+          height: auto;
           align-items: center;
       }
       .main-content{
@@ -2313,12 +2315,13 @@ nav .logo {
           
       }
       .main-right-img img{
-        height: 300px;
+        width: auto;
+        height: auto;
+        margin-left: 20px;
       }
       .main img{
           width: 100%;
-          margin: auto;
-          margin-top: -10px;
+          margin-bottom: -5px;
           
       }
   
@@ -2668,18 +2671,19 @@ nav .logo {
   
       .main {
           width: 100%;
-          height: 254vh;
+          height: auto;
           align-items: center;
       }
       .main-content{
           flex-direction: column-reverse;   
       }
       .main-right-img img{
-        height: 300px;
+        height: auto;
+        margin-left: 0px;
       }
       .main img{
           width: 100%;
-          margin: auto;
+          margin-bottom: -5px;
       }
   
       .main-content-left h1{
